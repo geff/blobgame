@@ -615,20 +615,20 @@ namespace FarseerGames.GettingStarted
         private void DrawGrid(SpriteBatch spriteBatch)
         {
             //draw grid
-            for (int i = 0; i < _physicsSimulator.GeomList.Count; i++)
-            {
-                if (_physicsSimulator.GeomList[i].Grid == null)
-                {
-                    continue;
-                }
-                int count = _physicsSimulator.GeomList[i].Grid.Points.Length;
-                for (int j = 0; j < count; j++)
-                {
-                    Vector2 point =
-                        _physicsSimulator.GeomList[i].GetWorldPosition(_physicsSimulator.GeomList[i].Grid.Points[j] * factor + centerScreen);
-                    _gridCircleBrush.Draw(spriteBatch, point * factor + centerScreen);
-                }
-            }
+            //for (int i = 0; i < _physicsSimulator.GeomList.Count; i++)
+            //{
+            //    if (_physicsSimulator.GeomList[i]..Grid == null)
+            //    {
+            //        continue;
+            //    }
+            //    int count = _physicsSimulator.GeomList[i].Grid.Points.Length;
+            //    for (int j = 0; j < count; j++)
+            //    {
+            //        Vector2 point =
+            //            _physicsSimulator.GeomList[i].GetWorldPosition(_physicsSimulator.GeomList[i].Grid.Points[j] * factor + centerScreen);
+            //        _gridCircleBrush.Draw(spriteBatch, point * factor + centerScreen);
+            //    }
+            //}
         }
 
         private void DrawCoordinateAxis(SpriteBatch spriteBatch)
