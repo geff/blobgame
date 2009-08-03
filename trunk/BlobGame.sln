@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobGame", "BlobGame.csproj", "{9106A7F7-6F35-4443-9838-B1B0C76B1079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarseerPhysics", "..\..\FarseerPhysics-42334\Branches\XNA3 Beta\FarseerPhysics.csproj", "{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9106A7F7-6F35-4443-9838-B1B0C76B1079}.Debug|x86.ActiveCfg = Debug|x86
+		{9106A7F7-6F35-4443-9838-B1B0C76B1079}.Debug|x86.Build.0 = Debug|x86
+		{9106A7F7-6F35-4443-9838-B1B0C76B1079}.Release|x86.ActiveCfg = Release|x86
+		{9106A7F7-6F35-4443-9838-B1B0C76B1079}.Release|x86.Build.0 = Release|x86
+		{1C98A024-9147-4DC9-8733-CA3A100E7F2A}.Debug|x86.ActiveCfg = Debug|x86
+		{1C98A024-9147-4DC9-8733-CA3A100E7F2A}.Release|x86.ActiveCfg = Release|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Debug|x86.ActiveCfg = Debug|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Debug|x86.Build.0 = Debug|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Release|x86.ActiveCfg = Release|x86
+		{3CA74E02-3210-4BF8-85E9-024E9AD6F18D}.Release|x86.Build.0 = Release|x86
+		{5DB75E98-A054-4091-AB49-F5DB0F17F771}.Debug|x86.ActiveCfg = Debug|x86
+		{5DB75E98-A054-4091-AB49-F5DB0F17F771}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
